@@ -1,12 +1,14 @@
 ---
-title: "**Funding and Partners**"
+title: NULL
 ---
+
 <center>
-## Funding
+  <h2>Funding</h2>
+</center>
 
 <figure style="text-align:center">
   <a href="https://www.uibk.ac.at">
-  <img src="media/uibk-logo.png" alt="University of Innsbruck logo" style="width:30%"></a>
+  <img src="media/uibk-logo.png" alt="University of Innsbruck logo" style="width:20%"></a>
   <figcaption>University of Innsbruck, Austria</figcaption>
 </figure> 
 
@@ -14,7 +16,7 @@ title: "**Funding and Partners**"
 
 <figure style="text-align:center">
   <a href="https://www.oead.at">
-  <img src="media/oead-logo.png" alt="OeAD logo" style="width:30%"></a>
+  <img src="media/oead-logo.png" alt="OeAD logo" style="width:20%"></a>
   <figcaption>OeAD – Agency for Education and Internationalisation</figcaption>
 </figure>
 
@@ -22,18 +24,19 @@ title: "**Funding and Partners**"
 
 <figure style="text-align:center">
   <a href="https://asea-uninet.org/">
-  <img src="media/asea-logo.jpg" alt="ASEA-UNINET logo" style="width:20%"></a>
+  <img src="media/asea-logo.jpg" alt="ASEA-UNINET logo" style="width:10%"></a>
   <figcaption>ASEA Uninet</figcaption>
 </figure> 
 
 </br>
 
-## Partners
+<center>
+  <h2>Partners</h2>
+</center>
 
 <figure style="text-align:center">
   <a href="https://inter.msu.ac.th/">
-  <img src="media/msu-logo.png" alt="MSU logo" style="width:20%"></a>
+  <img src="media/msu-logo.png" alt="MSU logo" style="width:10%"></a>
   <figcaption>Maha Sarakham University</figcaption>
 </figure> 
 
-</center>
