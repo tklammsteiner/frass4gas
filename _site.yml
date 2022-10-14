@@ -4,8 +4,18 @@ navbar:
   left:
     - text: 'About'
       href: index.html
+    - text: 'Studies'
+      menu:
+        - text: 'Study 1'
+          href: study_1.html
+        - text: 'Study 2'
+          href: study_2.html
+        - text: 'Study 3'
+          href: study_3.html
     - text: 'Data'
       href: data.html
+    - text: 'Funding and Partners'
+      href: funding.html
   right: 
     - icon: fa-envelope fa-lg
       href: mailto:fromwastetofeed@outlook.com
@@ -16,4 +26,6 @@ navbar:
 output_dir: 'docs'
 output:
   html_document:
-    theme: simplex
+    theme: journal
+    includes:
+      after_body: footer.html

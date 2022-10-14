@@ -1,3 +1,8 @@
 ---
 title: "**Data**"
 ---
+
+Raw sequence data was deposited at the European Nucleotide Archive (ENA) and can be accessed via [https://www.ebi.ac.uk/ena](https://www.ebi.ac.uk/ena) by searching for the respective accession numbers:
+
+- FrassDigest 1: PRJEB56626
+- FrassDigest 2: PRJEB56631
