@@ -6,11 +6,11 @@ navbar:
       href: index.html
     - text: 'Studies'
       menu:
-        - text: 'Study 1'
+        - text: 'S1: Frass as co-substrate'
           href: study_1.html
-        - text: 'Study 2'
+        - text: 'S2: Effect of storage time'
           href: study_2.html
-        - text: 'Study 3'
+        - text: 'S3: Study 3'
           href: study_3.html
     - text: 'Data'
       href: data.html
