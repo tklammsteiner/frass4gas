@@ -9,7 +9,11 @@ title: NULL
 <figure style="text-align:center">
   <a href="https://www.uibk.ac.at">
   <img src="media/uibk-logo.png" alt="University of Innsbruck logo" style="width:20%"></a>
-  <figcaption>University of Innsbruck, Austria</figcaption>
+  <figcaption>
+    <p>University of Innsbruck, Austria</br> 
+    Early Stage Funding 2021
+    </p>
+  </figcaption>
 </figure> 
 
 </br>
@@ -40,3 +44,10 @@ title: NULL
   <figcaption>Maha Sarakham University</figcaption>
 </figure> 
 
+</br>
+
+<center>
+  <h2>Acknowledgements</h2>
+</center>
+
+People that contributed to past an current projects on Frass4Gas: Julia Rothärmel, Julian Dedieu, Nazlican Yalcin, Andreas Wagner, Dirk Benndorf, Robert Heyer, Carina D. Heussler, Siripuk Suraporn, Heribert Insam, Maria Payr, Nico Peer, Thomas Klammsteiner.

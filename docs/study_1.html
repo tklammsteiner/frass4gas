@@ -11,9 +11,9 @@
 
 
 
-<title>Study 1</title>
+<title>Frass as co-substrate</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -143,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -176,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -185,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -243,7 +240,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Frass 4 Gas</a>
+      <a class="navbar-brand" href="index.html">Frass4Gas</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -264,7 +261,7 @@ $(document).ready(function () {
       <a href="study_2.html">S2: Effect of storage time</a>
     </li>
     <li>
-      <a href="study_3.html">S3: Study 3</a>
+      <a href="study_3.html">S3: Frass4Gas Thailand</a>
     </li>
   </ul>
 </li>
@@ -303,12 +300,112 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Study 1</h1>
+<h1 class="title toc-ignore">Frass as co-substrate</h1>
+<h3 class="subtitle">Study 1</h3>
 
 </div>
 
 
+<p><br/></p>
+<b>Citation:</b>
+<div class="boxed">
+<p>Klammsteiner, T.<sup>†</sup>, Yalcin, N., Rothärmel, J., Benndorf,
+D., Wagner, A.O., Insam,H., Hupfauf, S.<sup>†</sup>, 2023. In-depth
+insights into biotic and abiotic dynamics of using insect frass as
+co-substrate for anaerobic digestion and biogas production.
+<em>Submitted</em>. (<sup>†</sup>equal contribution)<br />
+<a href="https:/doi.org/">https:/doi.org/</a></p>
+</div>
+<p><br/></p>
+<div id="about" class="section level2">
+<h2>About</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit eget
+gravida cum sociis natoque penatibus et magnis. In tellus integer
+feugiat scelerisque varius morbi enim nunc. Vel risus commodo viverra
+maecenas accumsan lacus vel facilisis volutpat. Suspendisse ultrices
+gravida dictum fusce ut placerat orci nulla. Morbi tristique senectus et
+netus et. Vitae purus faucibus ornare suspendisse sed nisi lacus sed
+viverra. Elit ullamcorper dignissim cras tincidunt lobortis feugiat
+vivamus at. Congue quisque egestas diam in arcu cursus euismod. Feugiat
+nibh sed pulvinar proin gravida hendrerit lectus. Blandit aliquam etiam
+erat velit scelerisque. Blandit cursus risus at ultrices. Sed augue
+lacus viverra vitae.</p>
+<p><br/></p>
+<figure>
+<img src="media/fd1_cosubstrates.png">
+<figcaption>
+<b>Figure 1.</b> Co-substrates used in the anaerobic digestion
+experiments.
+</figcaption>
+</figure>
+<p><br/></p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit eget
+gravida cum sociis natoque penatibus et magnis. In tellus integer
+feugiat scelerisque varius morbi enim nunc. Vel risus commodo viverra
+maecenas accumsan lacus vel facilisis volutpat.</p>
+<p><br/></p>
+<figure>
+<img src="media/fd1_workflow.png">
+<figcaption>
+<b>Figure 2.</b> Overview on the general workflow of the experiment.
+</figcaption>
+</figure>
+<p><br/></p>
+</div>
+<div id="results" class="section level2">
+<h2>Results</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit eget
+gravida cum sociis natoque penatibus et magnis. In tellus integer
+feugiat scelerisque varius morbi enim nunc. Vel risus commodo viverra
+maecenas accumsan lacus vel facilisis volutpat. Suspendisse ultrices
+gravida dictum fusce ut placerat orci nulla. Morbi tristique senectus et
+netus et. Vitae purus faucibus ornare suspendisse sed nisi lacus sed
+viverra. Elit ullamcorper dignissim cras tincidunt lobortis feugiat
+vivamus at. Congue quisque egestas diam in arcu cursus euismod. Feugiat
+nibh sed pulvinar proin gravida hendrerit lectus. Blandit aliquam etiam
+erat velit scelerisque. Blandit cursus risus at ultrices. Sed augue
+lacus viverra vitae.</p>
+<p><br/></p>
+<div id="abbreviations" class="section level3">
+<h3>Abbreviations</h3>
+<ul>
+<li>CS: Cattle slurry (control)</li>
+<li>WB: Fresh wheat bran/grain product mix</li>
+<li>WBF: Wheat bran/grain product mix digested by larvae (frass)</li>
+<li>CHF: Wheat bran/grain product mix amended with biochar and
+subsequently digested by larvae (frass)</li>
+<li>FEF: Wheat bran/grain product mix after lactic acid fermentation and
+subsequent digestion by larvae (frass)</li>
+</ul>
+<p><br/></p>
+</div>
+</div>
+<div id="data-availability" class="section level2">
+<h2>Data availability</h2>
+<p>The data that support the findings of this study are openly available
+in the European Nucleotide Archive (ENA) at <a
+href="https://www.ebi.ac.uk/ena/">https://www.ebi.ac.uk/ena/</a> under
+the accession number <a
+href="https://www.ebi.ac.uk/ena/browser/view/PRJEB56626">PRJEB56626</a>.</p>
+<style type="text/css">
 
+.boxed {
+  background: #F3F5F6;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 1px;
+  padding-left: 10px;
+  text-align: justify;
+  text-justify: auto;
+} 
+
+
+
+</style>
+</div>
 
 </br>
 

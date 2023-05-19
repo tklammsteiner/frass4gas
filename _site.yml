@@ -1,6 +1,6 @@
-name: 'Frass 4 Gas'
+name: 'Frass4Gas'
 navbar:
-  title: 'Frass 4 Gas'
+  title: 'Frass4Gas'
   left:
     - text: 'About'
       href: index.html
@@ -10,7 +10,7 @@ navbar:
           href: study_1.html
         - text: 'S2: Effect of storage time'
           href: study_2.html
-        - text: 'S3: Study 3'
+        - text: 'S3: Frass4Gas Thailand'
           href: study_3.html
     - text: 'Data'
       href: data.html
