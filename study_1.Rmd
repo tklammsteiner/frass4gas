@@ -7,7 +7,7 @@ subtitle: "Study 1"
 
 <b>Citation:</b>
 <div class="boxed">
-Klammsteiner, T.<sup>†</sup>, Yalcin, N., Rothärmel, J., Benndorf, D., Wagner, A.O., Insam,H., Hupfauf, S.<sup>†</sup>, 2023. In-depth insights into biotic and abiotic dynamics of using insect frass as co-substrate for anaerobic digestion and biogas production. *Submitted*. (<sup>†</sup>equal contribution)  
+Klammsteiner, T.<sup>†</sup>, Yalcin, N., Rothärmel, J., Heyer, R., Benndorf, D., Wagner, A.O., Insam,H., Hupfauf, S.<sup>†</sup>, 2023. In-depth insights into biotic and abiotic dynamics of using insect frass as co-substrate for anaerobic digestion and biogas production. *In preparation*. (<sup>†</sup>equal contribution)  
 [https:/doi.org/](https:/doi.org/)
 </div>
 

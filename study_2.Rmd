@@ -7,7 +7,7 @@ subtitle: "Study 2"
 
 <b>Citation:</b>
 <div class="boxed">
-Hupfauf, S.<sup>†</sup>, Dedieu, J., Rothärmel, J., Wagner, A.O., Insam, H., Klammsteiner, T.<sup>†</sup>, 2023. Storage time affects the frass microbiota but does not change its biogas potential. *Submitted*. (<sup>†</sup>equal contribution)  
+Hupfauf, S.<sup>†</sup>, Dedieu, J., Rothärmel, J., Wagner, A.O., Insam, H., Klammsteiner, T.<sup>†</sup>, 2023. Storage time affects the frass microbiota but does not change its biogas potential. *In preparation*. (<sup>†</sup>equal contribution)  
 [https:/doi.org/](https:/doi.org/)
 </div>
 
